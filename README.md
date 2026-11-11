@@ -2,6 +2,10 @@
   <img src="assets/icon.png" width="128" alt="Gray Intel">
 </p>
 
+<p align="center">
+  <a href="https://github.com/Mymiyu-tool/gray-intel/actions/workflows/package.yml"><img src="https://github.com/Mymiyu-tool/gray-intel/actions/workflows/package.yml/badge.svg" alt="Package"></a>
+</p>
+
 <h1 align="center">Gray Intel · 灰产情报检索</h1>
 
 <p align="center">给 Miyu 用的灰产 / 黑产情报检索工具：会黑话，会绕软文，会做站内 dork。</p>
@@ -21,15 +25,18 @@
 ## 安装
 
 ```bash
-git clone https://github.com/miyu-packages/gray-intel.git
+git clone https://github.com/Mymiyu-tool/gray-intel.git
 miyu pkg install ./gray-intel
 ```
 
 或者下载 Release 里的 `.miyu` 文件：
 
 ```bash
+curl -LO https://github.com/Mymiyu-tool/gray-intel/releases/latest/download/gray-intel-0.1.0.miyu
 miyu pkg install gray-intel-0.1.0.miyu
 ```
+
+> 官方社区源收录之后，可以直接 `miyu pkg install gray-intel`，不需要手动下载。
 
 装好后出现 `grayintel` 工具。
 
