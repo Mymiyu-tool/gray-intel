@@ -1,0 +1,7 @@
+[package]
+version = "0.1.0"
+name = { en = "Gray Intel", zh = "灰产情报检索" }
+summary = { en = "OSINT search for underground and gray-market topics: slang expansion, dual engines, forum dorks, SEO-farm downranking", zh = "灰产情报检索：黑话扩展、双引擎、站内 dork、软文降权" }
+author = "yxxbc"
+icon = "radar"
+upstream = "https://github.com/miyu-packages/gray-intel"
